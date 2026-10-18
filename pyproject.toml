@@ -13,6 +13,9 @@ dependencies = ["httpx>=0.27"]
 Homepage = "https://github.com/fr2endly/mcp-scan"
 Issues = "https://github.com/fr2endly/mcp-scan/issues"
 
+[project.scripts]
+mcp-scan = "mcp_scan.cli:main"
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
