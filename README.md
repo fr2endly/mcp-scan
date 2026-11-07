@@ -1,8 +1,5 @@
 # mcp-scan
 
-<img width="400" height="225" alt="mcp-scan" src="https://github.com/user-attachments/assets/8685586a-ae04-4a9c-9fba-0cdc9d74493a" />
-
-
 A security scanner for Model Context Protocol servers.
 
 It reads what a server publishes (its tools, schemas, resources, prompts) and looks for signs that the server is trying to attack the agent that connects to it.
